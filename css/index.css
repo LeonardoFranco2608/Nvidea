@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+
+h2{
+    margin-left: 22%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+ background-color: #7cd000;
+ padding: 20px;
+ border-radius: 10px;
+ width: 300px;
+ height: 300px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    width: 100%;
+}
+
+.button{
+    align-items: center;
+}
+
+.login{
+    display: grid;
+    margin-left: 23%;
+    margin-top: 30px;
+    }
+
+    input[type="text"]{
+        display: flex;
+        justify-items: center;
+        width: 150px;
+        margin-right: 50px;
+        padding: 5px;
+    }
+
+    .senha{
+        display: grid;
+        margin-left: 23%;   
+        margin-top: 50px;
+    }
+    
+    .confirmBotton{
+        margin-top: 10%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25%;
+       
+    }
+    
+    .confirmBotton a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 20px;
+        width: 150px;
+        height: 28px;
+        background-color: white;
+        justify-items: center;
+        align-items: center;
+        border-radius: 6px;
+        grid-template-columns: 7fr;
+        display: grid;  
+    }
+
+   
