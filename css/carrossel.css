@@ -1,0 +1,44 @@
+@media screen and (min-width: 300px) and (max-width: 766px) {
+
+header{
+    background-color: rgb(73, 0, 73);
+    width: 100vw;
+    height: 20vh;
+   
+}
+
+
+h1{
+    display: flex;
+    color: rgba(185, 5, 185, 0.514);
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+}
+
+h2{
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 35px;
+}
+
+footer{
+    background-color: rgb(73, 0, 73);
+    width: 100vw;
+    height: 5vh;  
+}
+
+h6{
+    display: flex;
+    color: rgba(185, 5, 185, 0.514);
+    justify-content: center;
+    align-items: center;  
+    
+}
+}
+@media screen and (max-width: 767px) {
+    
+}
